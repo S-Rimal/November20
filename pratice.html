@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="mainp">Hello Tanya</p>
+    <div id="clickme" style="cursor: pointer; color:blue;">"clickme"</div>
+   </div>
+   <script src="script.js">
+    const heading=document.getElementById("mainp");
+    const button=document.getElementById("clickme");
+    button.addEventListener("click",()=> {
+        heading.innerHTML="You Clicked it, Tanya";
+    });
+   </script>
+</body>
+</html>
